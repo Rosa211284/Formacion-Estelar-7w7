@@ -1,0 +1,78 @@
+@import url("/assets/Css/Estilo.css");
+@import url('https://fonts.googleapis.com/css2?family=Short+Stack&display=swap');
+
+* {
+  transition: all 0.3s;
+}
+
+h1 {
+  font-family: 'short-stack-regular', cursive;
+  font-weight: 700;
+  margin: 20px;
+
+  justify-content: flex-start;
+}
+
+
+
+.contenedorJuegos {
+  background-color: rgb(188, 224, 255);
+  padding-top: 2%;
+  padding-bottom: 2%;
+  width: 90%;
+ color: #c17c33;
+    font-size: 18px;
+  height: auto;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5%;
+  border-radius: 30px;
+}
+
+.imagen_juegos {
+  object-fit: cover;
+  height: 0px;
+  width: 0px;
+}
+
+.contenedorJuegos #imagen_juegos {
+  width: 120%;
+  float: left;
+  padding: 0px;
+  border-radius: 30px;
+
+}
+
+.encabezado {
+  position: relative;
+  background: white;
+  min-width: 300px;
+  width: 70%;
+  max-width: 600px;
+  padding: 15px;
+border-radius: 30px;
+}
+
+
+.pregunta {
+  padding: 10px;
+}
+
+
+
+.btn {
+  background: white;
+  width: 60%;
+  max-width: 550px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+

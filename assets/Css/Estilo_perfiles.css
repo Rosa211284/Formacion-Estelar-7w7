@@ -1,0 +1,117 @@
+ * {
+     margin: 0;
+     padding: 0;
+     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+ }
+
+ body {
+     background-image: url(../Imagenes/Perfiles/fondo_estrellas.png);
+     background-size: cover;
+     color: #fff;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+ }
+
+
+ .contenedor_perfiles {
+     text-align: center;
+ }
+
+ h1 {
+     font-size: 50px;
+     margin-bottom: 10%;
+ }
+
+ .lista_perfiles {
+     display: flex;
+     justify-content: center;
+     gap: 50px;
+     list-style: none;
+     margin-bottom: 10%;
+ }
+
+ .icono_perfil {
+     text-align: center;
+ }
+
+ .vinculo_perfil {
+     text-decoration: none;
+     color: #6e6e6e;
+     display: flex;
+     flex-direction: column;
+   
+ }
+
+ .foto_perfil {
+     width: 15vw;
+     height: 15vw;
+     border: 1px solid #fff;
+     border-radius: 50%;
+     margin-bottom: 10px;
+     transition: 0.2s ;
+ }
+
+ .foto_perfil img {
+     width: 100%;
+
+ }
+
+ .vinculo_perfil:hover .foto_perfil{
+     box-shadow: 0 0 25px #0ff, 0 0 50px #0ff;
+     transition: 0.2s;
+     color: #fff;
+ }
+
+ .vinculo_perfil:hover .nombre_perfil{
+     color: #fff;
+ }
+/*-------------------Perfiles Inicio----------------------------------------*/
+  .bienvenida{
+    width: 50%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2px;
+ }
+ .bienvenida img{
+    width: 50%;
+    padding: 2%;
+ }
+ 
+ .bienvenida h1{
+   margin: 10px 0;
+ }
+ 
+ .datos{
+    text-align: center;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 15px auto;
+    gap: 2%;
+ }
+ 
+ input{
+    width: 30%;
+    padding: 1%;
+    font-size: 20px;
+ 
+ }
+ 
+ button{
+    width: 10%;
+    background-color: rgb(188, 224, 255);
+    border:none;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+button:hover {
+    background-color: rgb(1, 56, 110);
+}

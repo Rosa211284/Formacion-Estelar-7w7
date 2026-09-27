@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+ 
+html, body {
+    width: 100%;
+    height: 100%;
+}
+/*-------------------Barra de Inicio---------------------------------------*/
+#logo{
+background-color: rgb(188, 224, 255);
+font-size: 25px;
+text-decoration: none;
+padding: 10px;
+display:flex;
+align-items: center;
+ 
+}
+#logo h1{
+font-size: 35px;
+padding: 1%;
+color: rgb(45, 76, 178);
+}
+ 
+#logo1 img{
+padding-left: 2%;
+text-align: left;
+float: left;
+}
+ 
+.no-underline {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(45, 76, 178);
+   
+}
+ 
+#logo a{
+    padding: 1%;
+    color: rgb(45, 76, 178);
+}
+ 
+/*--------------Estilo de los cuentos 7w7--------------------------------*/
+ 
+.cuentos{
+    width: 100%;
+}
+.cuentos img{
+width: 100%;
+}
+.cuentos h1{
+   padding: 1%;
+}
+.Cuento1{
+    height: 99vh;
+    font-size: 30px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    margin: 15px auto;
+   
+   
+}
+ 
+.Cuento2{
+    height: 99vh;
+    font-size:30px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display:flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 15px auto;
+}
+ 
+ 
+/*---------Texto Cuentos-------------------*/
+ 
+.Cuento1 p,
+.Cuento2 p {
+    width: 40%;
+    font-size: 110%;
+    padding: 5%;
+    opacity: 0;
+    transform: translateY(-20px);
+    transition: opacity 0.5s ease-out, transform 0.9s ease-out;
+}
+ 
+.Cuento1.mostrar p,
+.Cuento2.mostrar p {
+    opacity: 1;
+    transform: translateY(0);
+}
+/*-------------------Tooltip-----------------------------------------------*/
+.palabra_tooltip{
+    position: relative;
+    color: blue;
+}
+.tooltip{
+    white-space: nowrap;
+    position: absolute;
+    bottom: 40px;
+    left: 200%;
+    font-weight: normal;
+    transform: translateX(-30%);
+    background-color: #ffffff;
+    color: black;
+    padding:12px;
+    border-radius: 5px;
+    font-size:25px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s;
+}
+
+.tooltip2{
+    white-space: nowrap;
+    position: absolute;
+    bottom: 40px;
+    left: 40%;
+    font-weight: normal;
+    transform: translateX(-30%);
+    background-color: #ffffff;
+    color: black;
+    padding:12px;
+    border-radius: 5px;
+    font-size:25px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s;
+}
+ 
+.palabra_tooltip:hover .tooltip{
+    opacity: 1;
+    visibility: visible;
+}
+
+.palabra_tooltip:hover .tooltip2{
+    opacity: 1;
+    visibility: visible;
+}
+
+a{
+    text-decoration: none;
+}
+ 
+ 
+/*------------CUENTO MARGARITA FONDOS----------------------------*/
+#A1{
+    background-image: url("/assets/Imagenes/cuentos/A2.png");
+}
+#A2{
+    background-image: url("/assets/Imagenes/cuentos/A3.png");
+}
+#A3{
+background-image: url("/assets/Imagenes/cuentos/A4.png");
+}
+#A4{
+background-image: url("/assets/Imagenes/cuentos/a5.png");
+}
+#A5{
+background-image: url("/assets/Imagenes/cuentos/a6.png");
+}
+#A6{
+background-image: url("/assets/Imagenes/cuentos/a7.png");
+}
+
+/*------------CUENTO estrellasFONDOS----------------------------*/
+#B1{
+    background-image: url("/assets/Imagenes/cuentos/B2.png");
+}
+#B2{
+    background-image: url("/assets/Imagenes/cuentos/B3.png");
+}
+#B3{
+background-image: url("/assets/Imagenes/cuentos/B4.png");
+}
+#B4{
+background-image: url("/assets/Imagenes/cuentos/B5.png");
+}
+#B5{
+background-image: url("/assets/Imagenes/cuentos/B6.png");
+}
+#B6{
+background-image: url("/assets/Imagenes/cuentos/B7.png");
+}
+ 
+ 
+/*------------foot---------------*/
+#foot{
+background-color: #01386E;
+font-size: 20px ;
+text-decoration: none;
+padding: 20px 5%;
+display:flex;
+align-items: center;
+justify-content: space-around;
+ 
+}
+ 
+.no-underline {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+   
+}
+#foot #logo1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ 
+/*--------------Botones----------------------------------------*/
+button{
+    width: 10%;
+    height: 10%;
+    margin: 15px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(188, 224, 255);
+    border:none;
+    padding: 15px;
+    border-radius: 5px;
+   font-size: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+button:hover {
+    background-color: rgb(1, 56, 110);
+}
