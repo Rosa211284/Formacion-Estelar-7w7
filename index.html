@@ -8,15 +8,11 @@
     <link rel="stylesheet" href="assets/Css/Estilo.css">
 </head>
 <body>
-
-     <h2><a href="/juego_cuentos/juegoCuentosMargarita.html">Boton a juegos (eliminar despues)</a></h2>
       <!------------------Espacio para los temas------------------->
-    
     <div id="logo">
         <div id="logo1"> <a href="index.html"><img src="assets/Imagenes/Inicio/logo_con_icono_horizontal_con_blanco.png" width="35%" ></a></div>
          <h1>|</h1>
-         <a href="#" class="no-underline">Nombre</a>
-        
+         <p id="Nombre_Nino" class="no-underline">Nombre</p>
         <img src="assets/Imagenes/Inicio/gatito1.png" width="80px" >
     </div>
 
@@ -30,16 +26,12 @@
             <div class="image-slider rellax" data-rellax-speed="-2" style='background-image: url(assets/Imagenes/Inicio/capi.png)'></div> 
             <div class="image-slider rellax" data-rellax-speed="-2" style='background-image: url(assets/Imagenes/Inicio/gatito.png)'></div> 
             <div class="image-slider rellax" data-rellax-speed="-2" style='background-image: url(assets/Imagenes/Inicio/inu.png)'></div> 
-
-           
             <div class="image-slider" style='background-image: url(assets/Imagenes/Inicio/logo.png)'></div>
          </div>
-     </section>
-<br>
-<br>
-     <div class="Cuentos">
+     </section><br><br>
 
-       
+    <!---------------------Seccion de cuentos----------------------------------------------->
+     <div class="Cuentos">
         <div id="cuento_Nombre">
             <a href="indexs/margarita.html"><img src="/assets/Imagenes/Inicio/portada.png"></a>
             <h1>A margarita</h1>
@@ -51,7 +43,7 @@
             <p>Joseph Jacobs</p>
         </div> 
         <div id="cuento_Nombre">
-            <a href="#"><img src="/assets/Imagenes/Inicio/PortadaPrincipe.png"></a>
+            <a href="indexs/principe_feliz.html"><img src="/assets/Imagenes/Inicio/PortadaPrincipe.png"></a>
             <h1>El Principe Feliz</h1>
             <p>Oscar Wilde</p>
         </div> 
@@ -62,14 +54,12 @@
             <p>Anonimo</p>
         </div> 
      </div>
-     
-   
 <hr>
-    
+ <!---------------------Boton para ir a los demas cuentos----------------------------------------------->
     <button>Conoce mas cuentos</button>
     <br><br><br>
-    
-    
+
+    <!---------------------Formulario----------------------------------------------->
 
       <div class="contenedor">
         <div id="parte1">
@@ -78,10 +68,6 @@
         <p>Toda la informacion se recopila de manera segura.</p>
         <p>¡Recuerda siempre preguntar a tus padres antes de enviar cualquier historia a nosotros!</p>
         </div>
-
-      
-
-
         <form  action="assets/php/inicio_registration.php" method="post" class="formulario">
     
         <div class="campo">
@@ -108,17 +94,17 @@
 
         <label>
             <input type="checkbox"  name="anonimo"  value="1"> Permanecer Anonimo
-        </label>
-        <br>
+        </label><br>
+
         <label>
             <input type="checkbox"  name="novedades" value="1"> Acepto recbir novedades y comentarios de mi cuenta
-        </label>
-        <br><br><br>
+        </label><br><br><br>
     
         <button type="submit"  name="register">Registrar</button>
     </form>
     </div>
 
+<!---------------------Footer----------------------------------------------->
     <div id="foot">
         <a href="#" class="no-underline">Nombre</a>
         <a href="#" class="no-underline">Nombre</a>
@@ -126,11 +112,11 @@
         <a href="#" class="no-underline">Nombre</a>
         <a href="#" class="no-underline">Nombre</a>
     </div>
-
-     
+<!---------------------Scripts----------------------------------------------->
 
     <script src='assets/js/rellax.min.js'></script>
      <script src='assets/js/index.js'></script>
+     <script src="assets/js/perfiles.js"></script>
 
      
 </body>

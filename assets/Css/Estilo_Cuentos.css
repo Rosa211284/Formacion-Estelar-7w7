@@ -38,7 +38,7 @@ float: left;
    
 }
  
-#logo a{
+#logo p{
     padding: 1%;
     color: rgb(45, 76, 178);
 }
@@ -55,6 +55,7 @@ width: 100%;
    padding: 1%;
 }
 .Cuento1{
+    width: 100%;
     height: 99vh;
     font-size: 30px;
     background-size: cover;
@@ -68,6 +69,7 @@ width: 100%;
 }
  
 .Cuento2{
+    width: 100%;
     height: 99vh;
     font-size:30px;
     background-size: cover;
@@ -125,7 +127,7 @@ width: 100%;
     bottom: 40px;
     left: 40%;
     font-weight: normal;
-    transform: translateX(-30%);
+    transform: translateX(-100%);
     background-color: #ffffff;
     color: black;
     padding:12px;
@@ -190,7 +192,47 @@ background-image: url("/assets/Imagenes/cuentos/B6.png");
 #B6{
 background-image: url("/assets/Imagenes/cuentos/B7.png");
 }
- 
+
+
+/*------------CUENTO Boca ancha----------------------------*/
+#C1{
+    background-image: url("/assets/Imagenes/cuentos/C1.png");
+}
+#C2{
+    background-image: url("/assets/Imagenes/cuentos/C2.png");
+}
+#C3{
+background-image: url("/assets/Imagenes/cuentos/C3.png");
+}
+#C4{
+background-image: url("/assets/Imagenes/cuentos/C4.png");
+}
+#C5{
+background-image: url("/assets/Imagenes/cuentos/C5.png");
+}
+
+/*------------CUENTO El principe Feliz----------------------------*/
+#D1{
+    background-image: url("/assets/Imagenes/cuentos/D1.png");
+}
+#D2{
+    background-image: url("/assets/Imagenes/cuentos/D2.png");
+}
+#D3{
+background-image: url("/assets/Imagenes/cuentos/D3.png");
+}
+#D4{
+background-image: url("/assets/Imagenes/cuentos/D4.png");
+}
+#D5{
+background-image: url("/assets/Imagenes/cuentos/D5.png");
+}
+
+#D6{
+background-image: url("/assets/Imagenes/cuentos/D6.png");
+}
+
+
  
 /*------------foot---------------*/
 #foot{
