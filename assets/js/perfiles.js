@@ -1,3 +1,7 @@
+const foto_perfil = document.querySelector("#foto_perfil");
+const foto_guardada = localStorage.getItem("#foto_perfil");
+
+
 function obtenerNombres(){
     var nombre = document.querySelector("#nombre");
     var nombre_obtenido = nombre.value;

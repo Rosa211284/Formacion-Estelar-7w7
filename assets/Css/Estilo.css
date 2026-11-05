@@ -25,7 +25,7 @@ color: rgb(45, 76, 178);
 
 }
 #logo img{
-padding-left: 20px;
+padding-left: 10px;
 }
 
 #logo1 img{
@@ -137,7 +137,7 @@ hr{
 }
 
 button{
-    background-color: rgb(188, 224, 255);
+    background-color: #ff0076;
     border:none;
     padding: 15px;
     border-radius: 5px;
@@ -147,7 +147,7 @@ button{
     
 }
 button:hover {
-    background-color: rgb(1, 56, 110); 
+    background-color:#bc005e; 
 }
 
 a{
