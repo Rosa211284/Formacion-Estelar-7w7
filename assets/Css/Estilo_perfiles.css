@@ -17,11 +17,18 @@
 
  .contenedor_perfiles {
      text-align: center;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .nombre_perfil{
+    font-size: 25px;
+    color: #fff;
  }
 
  h1 {
      font-size: 50px;
-     margin-bottom: 10%;
+     margin-bottom: 8%;
  }
 
  .lista_perfiles {

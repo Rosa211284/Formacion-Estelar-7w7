@@ -14,7 +14,7 @@ html, body {
 background-color: rgb(188, 224, 255);
 font-size: 25px;
 text-decoration: none;
-padding: 10px;
+padding: 1%;
 display:flex;
 align-items: center;
 }
@@ -48,7 +48,14 @@ float: left;
 
 #logo b{
     color: rgb(45, 76, 178);
-    padding: 20%;
+    
+}
+
+.barra{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
  
 /*--------------Estilo de los cuentos 7w7--------------------------------*/
