@@ -235,7 +235,7 @@ background-image: url("/assets/Imagenes/cuentos/C4.png");
 background-image: url("/assets/Imagenes/cuentos/C5.png");
 }
 #C6{
-background-image: url("/assets/Imagenes/cuentos/C5.png");
+background-image: url("/assets/Imagenes/cuentos/C6.png");
 }
 
 /*------------CUENTO El principe Feliz----------------------------*/
@@ -260,7 +260,7 @@ background-image: url("/assets/Imagenes/cuentos/D6.png");
 }
 
 #D7{
-background-image: url("/assets/Imagenes/cuentos/D6.png");
+background-image: url("/assets/Imagenes/cuentos/D7.png");
 }
 /*-----------JUEGO-------------*/
 
@@ -286,6 +286,10 @@ margin-left: auto;
 margin-right: 5%;
 justify-content: center;
 }
+.juegoTexto p{
+color: #ffffff;
+ -webkit-text-stroke: 1px #000000;
+ }
 
 
  

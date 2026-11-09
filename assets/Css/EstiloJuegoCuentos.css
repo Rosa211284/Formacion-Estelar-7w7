@@ -13,7 +13,18 @@ h1 {
   justify-content: flex-start;
 }
 
-
+#instrucciones{
+   font-family: 'short-stack-regular', cursive;
+   border: 10px solid #ff0076;
+   padding: 20px;
+   margin: 20px;
+   border-radius: 30px;
+   background-color: white;
+   width: 70%;
+   text-align: center;
+   align-items: center;
+   margin-left: 200px;
+}
 
 .contenedorJuegos {
   background-color: rgb(188, 224, 255);
