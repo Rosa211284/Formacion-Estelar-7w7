@@ -1,0 +1,54 @@
+#tituloCuento {
+    font-family: 'short-stack-regular', cursive;
+    margin: 20px;
+     display: flex;
+  justify-content: center; 
+}
+
+
+
+
+.ContenedorPadre {
+    padding: 2rem 2rem;
+    text-align: left;
+}
+
+.ContenedorHijo1 {
+    display: inline-block;
+    padding: 10px;
+    vertical-align: middle;
+    width: 30%;
+
+}
+
+.ContenedorHijo2 {
+    display: inline-block;
+    padding: 10px;
+    vertical-align: middle;
+    text-align: center;
+    margin-left: 500px;
+    width: 30%;
+
+}
+
+.ContenedorHijo2 h1,
+h3 {
+    font-family: 'short-stack-regular', cursive;
+    color: #01386E;
+}
+
+.ContenedorHijo1 img {
+    width: 200%;
+}
+.botonDescarga{
+    display: inline-block;
+  padding: 25px;
+  background-color: #ff0076;
+  color: #ffffff;
+ font-family: 'short-stack-regular', cursive;
+  border-radius: 20px;
+  transition: 0.3s ease;
+}
+.botonDescarga:hover {
+  background-color: #a9014f;
+}
