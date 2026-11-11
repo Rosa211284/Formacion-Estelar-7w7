@@ -35,7 +35,7 @@ function escogerPreguntaAleatoria() {
       n = 0;
     }
     if (npreguntas.length == interprete_bp.length) {
-    window.location.href = "premio_margarita.html";
+    window.location.href = "premio_principe_feliz.html";
     return;
    
     }

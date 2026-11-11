@@ -1,0 +1,37 @@
+[
+    {   
+        "pregunta": "¿Que animalito ayudó a la estatua del Príncipe Feliz?",
+        "respuesta": "Una golondrina",
+        "incorrecta1": "Una lagartija",
+        "incorrecta2": "Un gatito",
+        "incorrecta3": "Un elefante",
+        "imagen_juegos": "/assets/Imagenes/juego_cuentos/9.png",
+        "objectFit": "cover"
+    },
+    {
+        "pregunta": "¿De qué estaba hecha la estatua del Príncipe Feliz?",
+        "respuesta": "Oro y piedras preciosas",
+        "incorrecta1": "Cobre y cuarzos",
+        "incorrecta2": "Madera y piedras preciosas", 
+        "incorrecta3": "Mármol",
+        "imagen_juegos": "/assets/Imagenes/juego_cuentos/10.png",
+        "objectFit": "cover"
+    },
+    {
+        "pregunta": "¿De que estaba hecho el corazón del Príncipe Feliz?",
+        "respuesta": "Plomo",
+        "incorrecta1": "Vidrio",
+        "incorrecta2": "Arcilla",
+        "incorrecta3": "Plástico",
+      "imagen_juegos": "/assets/Imagenes/juego_cuentos/11.png",
+        "objectFit": "cover"
+    },
+    {
+        "pregunta": "¿Quién pidió que le llevaran las dos cosas más valiosas y bellas de todo el mundo?",
+        "respuesta": "La reina de las hadas",
+        "incorrecta1": "La viejecita que vendía fruta",
+        "incorrecta2": "Los gobernantes del pueblo",
+        "incorrecta3": "La mamá del pequeño niño enfermo",
+        "imagen_juegos": "/assets/Imagenes/juego_cuentos/12.png"
+    }
+]

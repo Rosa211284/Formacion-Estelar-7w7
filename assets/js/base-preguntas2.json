@@ -1,0 +1,37 @@
+[
+    {   
+        "pregunta": "¿Como era la personalidad de Boca Ancha?",
+        "respuesta": "Presumido",
+        "incorrecta1": "Bondadoso",
+        "incorrecta2": "Amable",
+        "incorrecta3": "Amigable",
+        "imagen_juegos": "/assets/Imagenes/juego_cuentos/5.png",
+        "objectFit": "cover"
+    },
+    {
+        "pregunta": "¿Qué le pasó a Boca Ancha un día mientras nadaba?",
+        "respuesta": "Quedó atrapado en una enorme red",
+        "incorrecta1": "Encontró un tesoro pirata",
+        "incorrecta2": "Se quedó dormido en un barco fantasma", 
+        "incorrecta3": "Se perdió en una cueva",
+        "imagen_juegos": "/assets/Imagenes/juego_cuentos/6.png",
+        "objectFit": "cover"
+    },
+    {
+        "pregunta": "¿Por qué todos los peces le decían 'Boca Ancha' al pez más grande?",
+        "respuesta": "Porque tenía una boca gigantesca",
+        "incorrecta1": "Porque hablaba muy fuerte todo el día",
+        "incorrecta2": "Porque siempre estaba comiendo",
+        "incorrecta3": "Porque le gustaba cantar en el mar",
+      "imagen_juegos": "/assets/Imagenes/juego_cuentos/7.png",
+        "objectFit": "cover"
+    },
+    {
+        "pregunta": "¿Quiénes ayudaron a Boca Ancha a escapar y salvarse?",
+        "respuesta": "Los peces más pequeños",
+        "incorrecta1": "Un cangrejo con pinzas muy fuertes",
+        "incorrecta2": "Un pulpo gigante",
+        "incorrecta3": "El solito rompió la red con su gran boca",
+        "imagen_juegos": "/assets/Imagenes/juego_cuentos/8.png"
+    }
+]

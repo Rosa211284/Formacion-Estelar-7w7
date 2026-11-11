@@ -1,0 +1,37 @@
+[
+    {   
+        "pregunta": "¿Qué hacía el niño cada noche cuando el mundo se quedaba en silencio?",
+        "respuesta": "Se sentaba sobre una vieja roca a contar estrellas",
+        "incorrecta1": "Jugaba a las escondidas",
+        "incorrecta2": "Leía cuentos bajo la luz de la luna",
+        "incorrecta3": "Caminaba buscando amigos con quién platicar",
+        "imagen_juegos": "/assets/Imagenes/juego_cuentos/13.png",
+        "objectFit": "cover"
+    },
+    {
+        "pregunta": "¿Por qué el niño sentía que las estrellas lo entendían mejor que las personas?",
+        "respuesta": "Porque con ellas, nadie le preguntaba por qué soñaba tanto",
+        "incorrecta1": "Porque le concedían deseos",
+        "incorrecta2": "Porque las estrellas le hablaban", 
+        "incorrecta3": "Porque brillaban de colores diferentes cada noche",
+        "imagen_juegos": "/assets/Imagenes/juego_cuentos/14.png",
+        "objectFit": "cover"
+    },
+    {
+        "pregunta": "¿Por qué el niño contaba las estrellas si no le importaba saber cuántas había?",
+        "respuesta": "Porque sentía que cada estrella guardaba un sueño",
+        "incorrecta1": "Porque le daba miedo la oscuridad de la noche",
+        "incorrecta2": "Porque quería ser un astrónomo de grande",
+        "incorrecta3": "Porque era un juego que le habían enseñado",
+      "imagen_juegos": "/assets/Imagenes/juego_cuentos/15.png",
+        "objectFit": "cover"
+    },
+    {
+        "pregunta": "Cuando el niño creció y su vida se volvió más ocupada, ¿para qué seguía mirando al cielo?",
+        "respuesta": "Para no olvidar sus sueños y recordar quién era en realidad",
+        "incorrecta1": "Para saber si iba a llover",
+        "incorrecta2": "Para ver el futuro",
+        "incorrecta3": "Para saber si habia la misma cantidad que antes",
+        "imagen_juegos": "/assets/Imagenes/juego_cuentos/16.png"
+    }
+]
