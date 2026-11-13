@@ -1,6 +1,6 @@
 [
     {   
-        "pregunta": "¿Que animalito ayudó a la estatua del Príncipe Feliz?",
+        "pregunta": "¿Qué animalito ayudó a la estatua del Príncipe Feliz?",
         "respuesta": "Una golondrina",
         "incorrecta1": "Una lagartija",
         "incorrecta2": "Un gatito",
@@ -18,7 +18,7 @@
         "objectFit": "cover"
     },
     {
-        "pregunta": "¿De que estaba hecho el corazón del Príncipe Feliz?",
+        "pregunta": "¿De qué estaba hecho el corazón del Príncipe Feliz?",
         "respuesta": "Plomo",
         "incorrecta1": "Vidrio",
         "incorrecta2": "Arcilla",

@@ -27,11 +27,11 @@
         "objectFit": "cover"
     },
     {
-        "pregunta": "Cuando el niño creció y su vida se volvió más ocupada, ¿para qué seguía mirando al cielo?",
-        "respuesta": "Para no olvidar sus sueños y recordar quién era en realidad",
+        "pregunta": "Cuando el niño creció y su vida se volvió más ocupada, ¿por qué seguía mirando al cielo?",
+        "respuesta": "Para no olvidar sus sueños",
         "incorrecta1": "Para saber si iba a llover",
         "incorrecta2": "Para ver el futuro",
-        "incorrecta3": "Para saber si habia la misma cantidad que antes",
+        "incorrecta3": "Para saber si había la misma cantidad de estrellas",
         "imagen_juegos": "/assets/Imagenes/juego_cuentos/16.png"
     }
 ]

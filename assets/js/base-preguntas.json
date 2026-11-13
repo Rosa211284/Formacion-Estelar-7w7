@@ -4,7 +4,7 @@
         "respuesta": "Rubén Darío\r",
         "incorrecta1": "Picasso",
         "incorrecta2": "Alberto Julián\r",
-        "incorrecta3": "Juan Jose",
+        "incorrecta3": "Juan José",
         "imagen_juegos": "/assets/Imagenes/juego_cuentos/1.png",
         "objectFit": "cover"
     },
@@ -18,7 +18,7 @@
         "objectFit": "cover"
     },
     {
-        "pregunta": "¿Cómo crees que se sintió el rey, el papá de Margarita, al descubrir que ella tomo la estrella del cielo sin su permiso?",
+        "pregunta": "¿Cómo crees que se sintió el rey, el papá de Margarita, al descubrir que ella tomó la estrella del cielo sin su permiso?",
         "respuesta": "Molesto",
         "incorrecta1": "Curioso",
         "incorrecta2": "Contento",
@@ -27,7 +27,7 @@
         "objectFit": "cover"
     },
     {
-        "pregunta": "Al final, ¿que animal desfiló con Margarita para celebrar el haber obtenido la estrella?",
+        "pregunta": "Al final, ¿qué animal desfiló con Margarita para celebrar el haber obtenido la estrella?",
         "respuesta": "Elefantes",
         "incorrecta1": "Jirafas",
         "incorrecta2": "Camellos",
